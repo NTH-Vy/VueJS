@@ -1,0 +1,172 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "admin123",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "username": "user1",
+      "password": "user123",
+      "role": "user"
+    },
+    {
+      "id": 3,
+      "username": "user2",
+      "password": "user456",
+      "role": "user"
+    },
+    {
+      "id": 4,
+      "username": "user3",
+      "password": "user789",
+      "role": "user"
+    },
+    {
+      "id": 5,
+      "username": "manager",
+      "password": "manager123",
+      "role": "manager"
+    }
+  ],
+  "customers": [
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "email": "janesmith@example.com",
+      "phone": "987-654-3210",
+      "user": "Jane123",
+      "password": "123456789",
+      "status": "Vô hiệu hóa"
+    },
+    {
+      "id": 6,
+      "name": "Sophia Davis",
+      "email": "sophiad@example.com",
+      "phone": "111-222-3333",
+      "user": "Sophia123",
+      "password": "password123"
+    },
+    {
+      "name": "Nguyễn Trần Mai Thy",
+      "user": "dichvun3",
+      "email": "maithy09082006@gmail.com",
+      "password": "123456789",
+      "phone": "0903522954",
+      "id": 7
+    },
+    {
+      "name": "Nguyễn Trần Mai Thy",
+      "user": "dichvun3",
+      "email": "maithy09082006@gmail.com",
+      "password": "jjjjjjjjj",
+      "phone": "0903522954",
+      "id": 8
+    },
+    {
+      "name": "Nguyễn Trần Mai Thy",
+      "user": "vypro152505",
+      "email": "maithy09082006@gmail.com",
+      "password": "ggggggg",
+      "phone": "987654321567",
+      "id": 9
+    }
+  ],
+  "products": [
+    {
+      "id": 3,
+      "name": "Product C",
+      "price": 20,
+      "stock": 150,
+      "inStock": true,
+      "image": "kkkk",
+      "purchaseCount": 2,
+      "categories": "abc"
+    },
+    {
+      "id": 4,
+      "name": "Product D",
+      "price": 80,
+      "stock": 50
+    },
+    {
+      "id": 5,
+      "name": "Product E",
+      "price": 15,
+      "stock": 300
+    },
+    {
+      "id": 6,
+      "name": "Product F",
+      "price": 60,
+      "stock": 75,
+      "inStock": false,
+      "image": "kkkk",
+      "purchaseCount": 2,
+      "categories": "abc"
+    },
+    {
+      "id": 7,
+      "name": "Product G",
+      "price": 25,
+      "stock": 180
+    },
+    {
+      "name": "Product J",
+      "image": "qqq",
+      "price": 500,
+      "purchaseCount": 4,
+      "inStock": true,
+      "categories": "haiz",
+      "id": 8
+    },
+    {
+      "name": "Product Jjjj",
+      "image": "ee",
+      "price": 4444,
+      "purchaseCount": 1,
+      "inStock": true,
+      "categories": "haiz",
+      "id": 9
+    },
+    {
+      "name": "Product Jjjj",
+      "image": "ee",
+      "price": 31,
+      "purchaseCount": 26,
+      "inStock": true,
+      "categories": "haiz",
+      "id": 10
+    }
+  ],
+  "orders": [
+    {
+      "id": 2,
+      "customerId": 2,
+      "products": [
+        {
+          "productId": 3,
+          "quantity": 3
+        }
+      ],
+      "total": 60
+    },
+    {
+      "id": 6,
+      "customerId": 6,
+      "products": [
+        {
+          "productId": 2,
+          "quantity": 5
+        },
+        {
+          "productId": 3,
+          "quantity": 2
+        }
+      ],
+      "total": 190
+    }
+  ]
+}
